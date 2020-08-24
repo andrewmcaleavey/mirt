@@ -62,3 +62,5 @@ setGeneric('DrawValues', function(x, Theta, ...) standardGeneric("DrawValues"))
 setGeneric('GenRandomPars', function(x) standardGeneric("GenRandomPars"))
 
 setGeneric('CheckIntercepts', function(x) standardGeneric("CheckIntercepts"))
+
+setGeneric("plot", function(object, ...) standardGeneric("plot"))
